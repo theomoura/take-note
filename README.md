@@ -1,4 +1,4 @@
-#TakeNote
+# TakeNote
 
 Project for learning purposes, witch consists of a simple note editor.
 
