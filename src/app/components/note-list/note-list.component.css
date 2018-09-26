@@ -1,0 +1,15 @@
+.list-item {
+  border-width: 0 0 1px 0 !important;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.title-element {
+  font-weight: 600 !important;
+}
+
+.list-div {
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  height: 100%;
+}

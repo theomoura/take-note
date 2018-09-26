@@ -1,0 +1,16 @@
+<div>
+  <div class="field-margin">
+      <div class="form-group row">
+        <label class="col-sm-1 col-form-label label-titulo">Titulo:</label>
+        <div class="col-lg-11">
+          <input type="text" class="form-control" id="titulo-nota" placeholder="Digite um titulo para a nota..."
+                 [(ngModel)]="noteModel.title" (ngModelChange)="changeNote()">
+        </div>
+      </div>
+      <div>
+        <textarea class="form-control" id="conteudo-nota"
+                  [(ngModel)]="noteModel.content" (ngModelChange)="changeNote()">
+        </textarea>
+      </div>
+  </div>
+</div>

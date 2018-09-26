@@ -1,0 +1,32 @@
+.save-button {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.save-button:hover {
+  background-color: royalblue;
+}
+
+.save-button::after {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.save {
+  float: right;
+}
+
+.icon-button {
+  padding: 5px;
+}
+
+.action-bar {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+ul {
+  padding: 5px;
+}
+
+

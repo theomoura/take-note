@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="col-lg-4 screen-adjust list-content">
+    <app-note-list [noteList]="noteList" (noteSelected)="setNoteObject($event)"></app-note-list>
+  </div>
+  <div class="col-lg-8 screen-adjust">
+    <div class="row">
+      <app-note-actions (save)="saveNote()" (new)="newNote()" (delete)="deleteNote()"></app-note-actions>
+    </div>
+    <div class="row">
+      <app-note-editor [cleanNote]="cleanNote" [note]="noteObject" (noteChange)="setNoteObject($event)"></app-note-editor>
+    </div>
+  </div>
+</div>
